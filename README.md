@@ -5,10 +5,10 @@
 You can press `Enter` to pause excusion in any time.
 
 ## map:
-There are tracjotory with 4, 16, 24 coflict zones in `Mymap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
+There are trajectories with 4, 16, 24 coflict zones in `Mymap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
 
-## imput:
-You will need to input your driving situation as input_file. There are some input examples in `src`.
+## input:
+You will need to input your driving situation as `input_file`. There are some input examples in `src`.
 
 ## output:
 You will get pictures about the result in each unit of time. All pictures will be saved in `output_directory` that you input.
