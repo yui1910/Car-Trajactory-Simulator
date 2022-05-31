@@ -5,7 +5,7 @@
 You can press `Enter` to pause excusion in any time.
 
 ## map:
-There are trajectories with 4, 16, 24 coflict zones in `Mymap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
+There are trajectories with 4, 16, 24 coflict zones in `myMap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
 
 ## input:
 You will need to input your driving situation as `input_file`. There are some input examples in `src`.
