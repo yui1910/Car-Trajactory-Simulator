@@ -2,7 +2,7 @@
 
 ## usage:
 `python main.py input_file output_directory`
-You can press `Enter` to pause excusion in any time.
+You can press `SPACE` to pause excusion in any time.
 
 ## map:
 There are trajectories with 4, 16, 24 coflict zones in `myMap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
