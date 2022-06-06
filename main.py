@@ -7,7 +7,7 @@ from car import Car
 from display import Display
 from scheduler import Scheduler
 from depot import Depot
-from myMap import map4, map16, map24 # import your map
+from myMap import map4, map16, map24 # import your map if you want
 import time
 
 def main(input_file, output_path):

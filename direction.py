@@ -10,7 +10,6 @@ class Direct(Enum):
     LEFT_DOWN = 7
     RIGHT_DOWN = 8
 
-
     def getDirect(pos1, pos2):
         if pos1[0] < pos2[0]:
             if pos1[1] == pos2[1]:
@@ -49,4 +48,3 @@ class Direct(Enum):
             return ((x+r, y+r), (x+r, y), (x, y+r))
         else:
             return ((x-r, y+r), (x-r, y), (x, y+r))
-

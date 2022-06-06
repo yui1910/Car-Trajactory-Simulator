@@ -12,6 +12,7 @@ class Depot:
 
     def addCar(self, index, path_type, time):
         path = self.path[path_type]
+        # car's color is random now
         color = (random.randint(2, 10)*25, random.randint(2, 10)*25, random.randint(2, 10)*25)
         car = Car(index, self.window, self.road, self.scheduler, path[0], path[-1], path, color, time)
         self.car_list.append(car)

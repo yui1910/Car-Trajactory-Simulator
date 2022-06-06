@@ -2,7 +2,9 @@ class Map:
     def __init__(self):
         
         self.x = 2
-        self.y = 2    
+        self.y = 2
+
+        ### DEFINE TRAJECTORIES ###
         self.path = [   [(0, 1), (1, 1), (2, 1), (3, 1)],
                         [(0, 1), (1, 1), (2, 1), (2, 2), (2, 3)],
                         [(3, 2), (2, 2), (1, 2), (0, 2)],

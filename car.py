@@ -29,6 +29,8 @@ class Car:
         self.scheduler.addCar(self)
         
     def canMove(self):
+        # You can define when the car can move.
+        # The car can move if the zone is empty now.
         return self.road.isValid(self.path[self.index+1])
            
     def move(self):

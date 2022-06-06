@@ -26,5 +26,3 @@ class Display:
         if state == 2: #END
             text = my_font.render('Complete!', True, (0, 0, 0))
             self.window.blit(text, (600, 550))
-
-
