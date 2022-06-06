@@ -62,7 +62,7 @@ The first car driving in trajectory 1 (`path[0]` in `Map`), and it apears at tim
 The second car driving in trajectory 2 (`path[1]` in `Map`), and it apears at time 2.
 
 ## Scheduler:
-Now, all cars would move simply when their target zone is empty. Therefore, deadlock my happend in this simulator.
+Now, all cars would move simply when their target zone is empty. Therefore, deadlock may happend in this simulator.
 
 If you want, you can change the strategy defined at `scheduler.py`.
 
@@ -78,3 +78,5 @@ You will get pictures about the result in each unit of time. All pictures will b
 
 <img width="800" alt="截圖 2022-05-31 04 24 23" src="https://user-images.githubusercontent.com/45334378/171056021-373c176b-244e-4c27-ab59-de94824b0901.png">
 
+## Complete!
+<img width="802" alt="截圖 2022-06-07 04 56 41" src="https://user-images.githubusercontent.com/45334378/172247802-72a1af35-1d6a-468e-8262-83f8ab00a6dc.png">
