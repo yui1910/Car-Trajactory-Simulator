@@ -1,10 +1,10 @@
 # Car-Trajactory-Simulator
 
-## usage:
+## Usage:
 `python main.py input_file output_directory`
 You can press `SPACE` to pause excusion in any time.
 
-## map:
+## Map:
 There are trajectories with 4, 16, 24 coflict zones in `myMap`, which you don't need to import them by yourself. You are welcome to use your customized map if you want.
 
 #### There are some parameters in `Class Map` that you may want to define:
@@ -40,9 +40,9 @@ class Map:
                                 [(2, 1), (1, 2)], [(2, 3), (1, 2)], [(2, 1), (3, 2)], [(3, 2), (2, 3)]  ]
 ```
 
-For defined map4, map16, map24, You can only define your own trajectories in `Map`.
+For defined map4, map16, map24, You can only adjust your own `path` in `Map`.
 
-## input:
+## Input:
 You will need to input your driving situation as `input_file`. There are some input examples in `src`.
 
 After you define your trajectories, you need to define your cars in your input_file.
@@ -61,17 +61,17 @@ That means there are 2 cars driving in map4.
 The first car driving in trajectory 1 (`path[0]` in `Map`), and it apears at time 0.
 The second car driving in trajectory 2 (`path[1]` in `Map`), and it apears at time 2.
 
-## scheduler:
+## Scheduler:
 Now, all cars would move simply when their target zone is empty. Therefore, deadlock my happend in this simulator.
 
 If you want, you can change the strategy defined at `scheduler.py`.
 
-## output:
+## Output:
 You will get pictures about the result in each unit of time. All pictures will be saved in `output_directory` that you input.
 
 ---
 
-## execusion with map4, map16, map24:
+## Execusion with map4, map16, map24:
 <img width="800" alt="截圖 2022-05-31 04 23 48" src="https://user-images.githubusercontent.com/45334378/171055713-dad7b5d5-9df0-4234-8213-0d319f162b2d.png">
 
 <img width="801" alt="截圖 2022-05-31 04 24 06" src="https://user-images.githubusercontent.com/45334378/171055791-0aacdebe-6df2-4eb0-9a98-82159c1700ed.png">
